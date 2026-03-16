@@ -1,9 +1,9 @@
 {
-  "name": "pipevideo-mcp",
+  "name": "@repo/mcp",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3002",
+    "dev": "next dev -p 3003",
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit"
@@ -12,9 +12,9 @@
     "@clerk/mcp-tools": "latest",
     "@clerk/nextjs": "^6",
     "mcp-handler": "^1.0.4",
-    "next": "^15",
-    "react": "^19",
-    "react-dom": "^19",
+    "next": "16.0.10",
+    "react": "19.2.1",
+    "react-dom": "19.2.1",
     "zod": "^3.23.0"
   },
   "devDependencies": {
